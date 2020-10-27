@@ -1,0 +1,16 @@
+.message{
+    padding: 2px;
+    margin: 2px;
+    width: fit-content;
+}
+.message__user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+.muser{
+    background-color: blue !important;
+}
+.notuser{
+    background-color: white !important;
+}
