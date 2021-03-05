@@ -3,7 +3,8 @@ import React,{forwardRef} from 'react'
 import './Message.css'
 
 const Message = forwardRef(({message,username},ref) => {
-    const isUser = message.username === username;
+    let isUser =true
+     isUser = message.username === username;
     return (    
             <div ref={ref} className={`message ${isUser && 'message__user'}`}>
                 <Card className={isUser ? "muser" : "notuser"}>
